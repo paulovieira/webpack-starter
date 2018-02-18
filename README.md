@@ -15,7 +15,9 @@ http-server .
 
 3) open in the browser: http://localhost:8080
 
-4) use [degit](https://github.com/Rich-Harris/degit) to clone this starter in order to quickly test some library:
+------
+
+In order to quickly test some library, use [degit](https://github.com/Rich-Harris/degit) to clone this starter:
 ```
 degit paulovieira/webpack-starter new-folder-name
 ```
