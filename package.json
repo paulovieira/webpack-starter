@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "dependencies": {
+    "bell-on-bundler-error-plugin": "^2.0.0",
+    "underscore": "^1.8.3",
+    "webpack": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulovieira/webpack-starter.git"
+  },
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack --watch --display-chunks"
+  }
+}
