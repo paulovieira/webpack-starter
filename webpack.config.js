@@ -7,8 +7,8 @@ let BellOnBundlerErrorPlugin = require('bell-on-bundler-error-plugin');
 
 let internals = {};
 
-internals.srcDir = Path.join(__dirname, 'src');
-internals.buildDir = Path.join(__dirname, 'dist');
+internals.srcDir = Path.join(__dirname, 'client-app/src');
+internals.buildDir = Path.join(__dirname, 'client-app/dist');
 
 let config = {
 

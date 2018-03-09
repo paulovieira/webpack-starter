@@ -3,21 +3,23 @@
 Usage:
 
 
-1) build and watch with webpack:
+1) install, build and watch with webpack:
 ```
+npm install
 npm run build
 ```
 
-2) in a separate shell:
+2) start a [simple http server](https://github.com/indexzero/http-server) in a separate shell:
 ```
-http-server .
+http-server . -p 8080
 ```
 
 3) open in the browser: http://localhost:8080
 
 ------
 
-In order to quickly test some library, use [degit](https://github.com/Rich-Harris/degit) to clone this starter:
+In order to quickly test some library, [degit](https://github.com/Rich-Harris/degit) is a nice tool to quickly fetch this starter:
 ```
 degit paulovieira/webpack-starter new-folder-name
+npm install
 ```
